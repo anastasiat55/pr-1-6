@@ -234,5 +234,3 @@ ums.setGrade(s1.id, csCourse.id, GradeValue.Excellent);
 ums.setGrade(s2.id, csCourse.id, GradeValue.Good);
 console.log("AVG s1:", ums.calculateAverageGrade(s1.id));
 console.log("Excellent CS:", ums.getExcellentStudentsByFaculty(Faculty.Computer_Science).map(s => s.fullName));
-
- 

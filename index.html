@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Практична робота з TypeScript</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    .card { border: 1px solid #ccc; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; background: #f9f9f9; }
+    #hdr.scrolled { background-color: #eee; padding: 1rem; position: fixed; top: 0; width: 100%; }
+    #modal { display: none; position: fixed; top: 20%; left: 30%; background: white; padding: 2rem; border: 2px solid black; }
+    #modal.active { display: block; }
+    button { margin: 0.5rem; padding: 0.5rem 1rem; }
+  </style>
+</head>
+<body>
+  <h1 id="hdr">Практична робота: інтерактивність</h1>
+
+  <button id="openModalBtn">Відкрити модальне вікно</button>
+  <button id="closeModalBtn">Закрити модальне вікно</button>
+  <div id="modal">Це модальне вікно</div>
+
+  <button id="loadPostsBtn">Завантажити пости</button>
+  <div id="posts"></div>
+
+  <script src="./dist/main.js"></script>
+</body>
+</html>

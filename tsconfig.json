@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",              // версія JavaScript після компіляції
+    "module": "commonjs",         // система модулів
+    "strict": true,               // строгий режим типізації
+    "rootDir": "./src",           // директорія з вихідними .ts файлами
+    "outDir": "./dist",           // директорія для згенерованих .js файлів
+    "esModuleInterop": true       // підтримка імпорту ES модулів
+  },
+  "include": ["src"],             // включаємо всі файли з папки src
+  "exclude": ["node_modules"]     // виключаємо node_modules
+}
